@@ -31,4 +31,15 @@ entries:
     urls:
     - https://github.com/syedalihussain/helm-charts/releases/download/helm-example-0.1.0/helm-example-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-05T08:29:04.929489462Z"
+  nodejs-application:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-07T06:51:22.167203912Z"
+    description: A Helm chart for Kubernetes
+    digest: e6824b9691fb1625e26008b2b04b455e68a38a5059a21d7b53a718007ee973b9
+    name: nodejs-application
+    type: application
+    urls:
+    - https://github.com/syedalihussain/helm-charts/releases/download/nodejs-application-0.1.0/nodejs-application-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-02-07T06:51:22.167217628Z"
