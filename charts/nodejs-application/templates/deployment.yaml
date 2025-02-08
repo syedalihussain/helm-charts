@@ -42,7 +42,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
           - name: PORT
-            value: {{ .Values.service.port }}
+            value: {{ .Values.env.port }}
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
